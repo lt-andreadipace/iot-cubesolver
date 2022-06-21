@@ -1,0 +1,5 @@
+Flask==2.1.2
+pyserial==3.5
+requests==2.27.1
+rubik_solver==0.2.0
+tqdm==4.63.0
