@@ -64,6 +64,7 @@ def route_solve():
             return "Another solve is going"
         # start thread
         thread = threading.Thread(target=CUBE.sendMoves, args=(moves,))
+        thread.start()
     except Exception as e:
         return "Wrong config"
     else:
